@@ -17,5 +17,12 @@ export default {
 
 <style>
 #app {
+  font-family: "Lora", serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 31px;
+  text-decoration: none;
+  text-transform: none;
 }
 </style>

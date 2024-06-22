@@ -5,7 +5,7 @@ import AboutTemple from "@/components/AboutTemple.vue"
 import SampleView from "@/components/SampleView.vue"
 import ServicesView from "@/components/ServicesView.vue"
 import ContactUs from "@/components/ContactUs.vue"
-import PanchangamView from "@/components/PanchangamView.vue"
+import DonationsView from "@/components/DonationsView.vue"
 
 Vue.use(Router)
 
@@ -34,8 +34,8 @@ export default new Router({
     },
     {
       path: '/donations',
-      name: 'PanchangamView',
-      component: PanchangamView
+      name: 'DonationsView',
+      component: DonationsView
     },
     {
       path: '/contact',
