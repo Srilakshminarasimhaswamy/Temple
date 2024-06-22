@@ -5,15 +5,12 @@
 
                 <div>
                     <b-card-group deck class="mt-5">
-                        <b-card class="trusteecard" border-variant="info" header="Donation details" header-bg-variant="info"
+                        <b-card class="trusteecard" border-variant="info" header="Bank and Donation details" header-bg-variant="info"
                             header-text-variant="white" align="center">
-                            <b-card-text class="">
+                            <b-card-text class="">                               
                                 <p class="m-0">
-                                    Account Name: SRI LAKSHMI NARASIMHA SWAMY INDIAN CULTURAL SOCIETY OF AUSTRALIA
+                                    Account Name: SRI LAKSHMI NARASIMHA SWAMY INDIAN CULTURAL SOCIETY OF AUSTRALIA <br />
                                     INCORPORTATED
-                                </p>
-                                <br />
-                                <p class="m-0">
                                     BANK: BANK SA<br />
                                     BSB Number: 105-010<br />
                                     Account Number: 136315740<br />
