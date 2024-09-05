@@ -6,11 +6,9 @@
         Your browser does not support the audio element.
       </audio>
     </div>
-
-
     <div class="nav-header">
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <a class="title-home navbar-brand" href="#">Lakshmi Narashima Temple</a>
+        <a class="title-home navbar-brand">Lakshmi Narashima Temple</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -18,17 +16,21 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="/home">Home</a>
-              </li>
-         
-            <!-- <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">Dropdown Link</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/about">About Us</a></li>
-                <li><a class="dropdown-item" href="/story">About Lakshmi Narasimha Swamy</a></li>
-              </ul>
-            </li> -->
+              <a class="nav-link nav-home" href="/home">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                aria-expanded="false">About</a>
+              <div class="dropdown-menu">
+                <router-link to="/story">
+                  <a class="dropdown-item" href="#">Lakshmi Narasimha Swamy Story</a>
+                </router-link>
+                <router-link to="/about">
+                  <a class="dropdown-item">About Temple</a>
+                </router-link>
+
+              </div>
+            </li>
             <router-link to="/services">
               <li class="nav-item">
                 <a class="nav-link">Services</a>
@@ -51,7 +53,7 @@
             </router-link>
             <router-link to="/contact">
               <li class="nav-item">
-                <a class="nav-link">contact</a>
+                <a class="nav-link">Contact</a>
               </li>
             </router-link>
           </ul>
@@ -73,20 +75,6 @@ export default {
     // Pause the sound when the component is destroyed to prevent audio continuation
     this.$refs.audio.pause();
   },
-  // methods: {
-  //   toggleSound() {
-  //     const audio = this.$refs.audio;
-  //     // audio.paused ? audio.play() : audio.play();
-  //   },
-  // },
-  // mounted() {
-  //   // Auto-play the sound when the component is mounted
-  //   this.$refs.audio.autoplay();
-  // },
-  // beforeDestroy() {
-  //   // Pause the sound when the component is destroyed to prevent audio continuation
-  //   this.$refs.audio.pause();
-  // }
 };
 </script>
 
@@ -98,6 +86,18 @@ export default {
 
 a {
   text-decoration: none !important;
+  :hover {
+    background-color: rgba(237, 109, 25, 1);
+    border-radius: 5px;
+  }
+}
+
+.nav-link:hover{
+  background-color: rgba(237, 109, 25, 1) !important;
+    border-radius: 5px;
+}
+.nav-link{
+  color: white !important;
 }
 
 .fixed-top {
@@ -109,4 +109,11 @@ a {
   border-radius: 10px;
   background-color: black;
 }
-</style>
+
+.dropdown-menu {
+  background-color: black;
+}
+
+.dropdown-item {
+  color: white;
+}</style>

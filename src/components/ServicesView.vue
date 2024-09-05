@@ -1,5 +1,5 @@
 <template>
-  <main class="mt-5">
+  <main class="service-page">
     <div class="container">
       <section class="services">
         <div class="row">
@@ -57,6 +57,9 @@
 </template>
 
 <style scoped>
-.container{
-  margin-top: 5%;
-}</style>
+.service-page {
+  background-image: url(../assets/bg_8837.jpg);
+  height: 100vh;
+  width: 100vw;
+}
+</style>
