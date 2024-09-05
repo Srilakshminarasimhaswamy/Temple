@@ -58,7 +58,7 @@
 
 <style scoped>
 .service-page {
-  background-image: url(../assets/bg_8837.jpg);
+  background-image: url(../assets/images/bg_8837.jpg);
   height: 100vh;
   width: 100vw;
 }

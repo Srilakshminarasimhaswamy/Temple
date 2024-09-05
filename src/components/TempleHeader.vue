@@ -86,18 +86,26 @@ export default {
 
 a {
   text-decoration: none !important;
+
   :hover {
     background-color: rgba(237, 109, 25, 1);
     border-radius: 5px;
   }
 }
 
-.nav-link:hover{
+.nav-link:hover {
   background-color: rgba(237, 109, 25, 1) !important;
-    border-radius: 5px;
+  border-radius: 5px;
 }
-.nav-link{
+
+.nav-link {
   color: white !important;
+}
+
+.navbar-nav {
+  justify-content: space-evenly;
+  width: 70%;
+  margin-left: 5%;
 }
 
 .fixed-top {
@@ -116,4 +124,5 @@ a {
 
 .dropdown-item {
   color: white;
-}</style>
+}
+</style>

@@ -6,7 +6,7 @@
       <b-carousel-slide class="car-slide" caption="First slide"
         text="Nulla vitae elit libero, a pharetra augue mollis interdum.">
         <template #img>
-          <img class="d-block img-fluid w-100" width="1024" src="../assets/Temple1.jpg" alt="image slot" />
+          <img class="d-block img-fluid w-100" width="1024" src="../assets/images/Temple1.jpg" alt="image slot" />
         </template>
       </b-carousel-slide>
 
@@ -14,13 +14,13 @@
       <b-carousel-slide class="car-slide" caption="First slide"
         text="Nulla vitae elit libero, a pharetra augue mollis interdum.">
         <template #img>
-          <img class="d-block img-fluid w-100" width="1024" src="../assets/Temple2.jpg" alt="image slot" />
+          <img class="d-block img-fluid w-100" width="1024" src="../assets/images/Temple2.jpg" alt="image slot" />
         </template>
       </b-carousel-slide>
 
       <b-carousel-slide class="car-slide">
         <template #img>
-          <img class="d-block img-fluid w-100" width="1024" src="../assets/Temple1.jpg" alt="image slot" />
+          <img class="d-block img-fluid w-100" width="1024" src="../assets/images/Temple1.jpg" alt="image slot" />
         </template>
       </b-carousel-slide>
 
@@ -161,7 +161,7 @@ export default {
 }
 
 .test {
-  background: url(../assets/bg1.avif?) !important;
+  background: url(../assets/images/bg1.avif?) !important;
   background-position: top left !important;
   background-repeat: no-repeat !important;
 }

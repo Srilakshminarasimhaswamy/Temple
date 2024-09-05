@@ -29,11 +29,11 @@
                 <h6 _ngcontent-qew-c117="" class="mb-1 text-yellow"> Rahukalam : </h6>
                 <p _ngcontent-qew-c117="" class="mb-3 fs-14 text-yellow"> 12:10P - 1:21P</p>
                 <div _ngcontent-qew-c117="" class="d-flex align-items-center"><img _ngcontent-qew-c117=""
-                    src="../assets/morning.png" width="25" height="25">
+                    src="../assets/images/morning.png" width="25" height="25">
                   <p _ngcontent-qew-c117="" class="fs-14 mx-2 mb-0 text-yellow"> 7:28 AM</p>
                 </div>
                 <div _ngcontent-qew-c117="" class="d-flex align-items-center"><img _ngcontent-qew-c117=""
-                    src="../assets/sea.png" width="25" height="25">
+                    src="../assets/images/sea.png" width="25" height="25">
                   <p _ngcontent-qew-c117="" class="fs-14 mx-2 mb-0 text-yellow"> 4:53 PM</p>
                 </div>
               </div>

@@ -6,7 +6,7 @@
         <div class="row">
           <div class="about col-md-6 gx-5 mb-4">
             <div class="bg-image hover-overlay ripple shadow-2-strong" data-mdb-ripple-color="light">
-              <img src="../assets/Om.jpg" class="img-fluid" />
+              <img src="../assets/images/Om.jpg" class="img-fluid" />
               <a href="#!">
                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
               </a>
