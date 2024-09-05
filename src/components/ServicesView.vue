@@ -56,4 +56,7 @@
   </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+.container{
+  margin-top: 5%;
+}</style>

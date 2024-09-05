@@ -6,6 +6,7 @@ import SampleView from "@/components/SampleView.vue"
 import ServicesView from "@/components/ServicesView.vue"
 import ContactUs from "@/components/ContactUs.vue"
 import DonationsView from "@/components/DonationsView.vue"
+import StoryView from "@/components/StoryView.vue"
 
 Vue.use(Router)
 
@@ -41,6 +42,11 @@ export default new Router({
       path: '/contact',
       name: 'ContactUs',
       component: ContactUs
+    },
+    {
+      path: '/story',
+      name: 'StoryView',
+      component: StoryView
     },
     {
       path: '/',

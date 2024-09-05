@@ -239,3 +239,8 @@
     </div>
   </main>
 </template>
+<style scoped>
+.container{
+  margin-top: 5%;
+}
+</style>

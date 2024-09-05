@@ -96,7 +96,7 @@
                 1A Kambula Street <br />
                 Windsor Gardens,SA,5087 <br />
                 Phone: 0425753322 <br />
-                Email: srilakshminarasimhatemple@gmail.com.</b-card-text
+                Email: srilakshminarasimhatemple@gmail.com</b-card-text
               >
             </b-card>
           </b-card-group>

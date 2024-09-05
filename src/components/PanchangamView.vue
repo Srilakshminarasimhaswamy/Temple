@@ -56,4 +56,5 @@
 
 .img-fluid {
   object-fit: cover;
-}</style>
+}
+</style>

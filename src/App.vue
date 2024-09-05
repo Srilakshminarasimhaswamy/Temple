@@ -1,6 +1,6 @@
 <template>
   <div>
-    <TempleHeader></TempleHeader>
+    <TempleHeader class="header-temple"></TempleHeader>
     <router-view></router-view>
   </div>
 </template>
@@ -25,4 +25,8 @@ export default {
   text-decoration: none;
   text-transform: none;
 }
+
+/* .header-temple{
+  margin-bottom: 5%;
+} */
 </style>

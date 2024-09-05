@@ -1,5 +1,5 @@
 <template>
-  <main class="mt-5">
+  <main>
     <div class="container">
       <!--Section: Content-->
       <section>
@@ -112,5 +112,8 @@
 
 .img-fluid {
   object-fit: cover;
+}
+.container{
+  margin-top: 5%;
 }
 </style>
