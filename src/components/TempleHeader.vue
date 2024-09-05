@@ -17,11 +17,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
-            <router-link to="/home">
-              <li class="nav-item">
-                <a class="nav-link">Home</a>
+            <li class="nav-item">
+                <a class="nav-link" href="/home">Home</a>
               </li>
-            </router-link>
+         
             <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">Dropdown Link</a>
